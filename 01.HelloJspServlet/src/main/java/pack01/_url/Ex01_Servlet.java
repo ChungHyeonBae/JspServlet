@@ -18,7 +18,7 @@ public class Ex01_Servlet extends HttpServlet {
 	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append(" BCH RESPONSE ");
+		response.getWriter().append(" KYM RESPONSE ");
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

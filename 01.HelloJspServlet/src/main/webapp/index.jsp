@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h3>여기는 HelloJspServlet Bch</h3>
+	<h3>여기는 HelloJspServlet Kym</h3>
 	<table border="1px solid black;">
 		<tr>
 			<td>GET 방식</td>
