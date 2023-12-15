@@ -45,7 +45,7 @@ public class MybatisController extends HttpServlet {
 			System.out.println(list.get(0).getParam1());
 			System.out.println(list.get(1).getParam1());
 		}else if(path.equals("/param1.my")) {
-			String param = "bch";
+			String param = "kym";
 			String result = sql.selectOne("testmapper.param1",param);
 			System.out.println(result);
 		}else if(path.equals("/param2.my")) {
@@ -79,7 +79,7 @@ public class MybatisController extends HttpServlet {
 			System.out.println(reuslt);
 		}
 		//delete기능 만들어보기. -> COL1의 값이 cons인 행들은 전부 삭제
-		
+		//selectOne , selectList , insert , update ,delete
 		
 	}
 }
